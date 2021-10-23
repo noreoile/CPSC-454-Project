@@ -10,7 +10,7 @@ class App extends React.Component {
 	state = { videos: [], selectedVideo: null };
 
 	componentDidMount() {
-		this.onTermSubmit("cutecat");
+		this.onTermSubmit("dog");
 	}
 
 	onTermSubmit = async (term) => {
@@ -32,7 +32,7 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className="">
+			<div className="app">
 				<Navbar onSubmit={this.onTermSubmit} />
 				<div className="ui grid">
 					<div className="ui row">
