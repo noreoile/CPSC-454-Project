@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CPSC-454-Project/static/css/main.9fe32828.chunk.css",
-    "main.js": "/CPSC-454-Project/static/js/main.20b4b60c.chunk.js",
-    "main.js.map": "/CPSC-454-Project/static/js/main.20b4b60c.chunk.js.map",
+    "main.css": "/CPSC-454-Project/static/css/main.2f31a4b0.chunk.css",
+    "main.js": "/CPSC-454-Project/static/js/main.3cb731b0.chunk.js",
+    "main.js.map": "/CPSC-454-Project/static/js/main.3cb731b0.chunk.js.map",
     "runtime-main.js": "/CPSC-454-Project/static/js/runtime-main.e41024b6.js",
     "runtime-main.js.map": "/CPSC-454-Project/static/js/runtime-main.e41024b6.js.map",
-    "static/js/2.6abf1feb.chunk.js": "/CPSC-454-Project/static/js/2.6abf1feb.chunk.js",
-    "static/js/2.6abf1feb.chunk.js.map": "/CPSC-454-Project/static/js/2.6abf1feb.chunk.js.map",
+    "static/js/2.d831f92d.chunk.js": "/CPSC-454-Project/static/js/2.d831f92d.chunk.js",
+    "static/js/2.d831f92d.chunk.js.map": "/CPSC-454-Project/static/js/2.d831f92d.chunk.js.map",
     "index.html": "/CPSC-454-Project/index.html",
-    "static/css/main.9fe32828.chunk.css.map": "/CPSC-454-Project/static/css/main.9fe32828.chunk.css.map",
-    "static/js/2.6abf1feb.chunk.js.LICENSE.txt": "/CPSC-454-Project/static/js/2.6abf1feb.chunk.js.LICENSE.txt",
+    "static/css/main.2f31a4b0.chunk.css.map": "/CPSC-454-Project/static/css/main.2f31a4b0.chunk.css.map",
+    "static/js/2.d831f92d.chunk.js.LICENSE.txt": "/CPSC-454-Project/static/js/2.d831f92d.chunk.js.LICENSE.txt",
     "static/media/YoutubeIcon.9dce52e4.svg": "/CPSC-454-Project/static/media/YoutubeIcon.9dce52e4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e41024b6.js",
-    "static/js/2.6abf1feb.chunk.js",
-    "static/css/main.9fe32828.chunk.css",
-    "static/js/main.20b4b60c.chunk.js"
+    "static/js/2.d831f92d.chunk.js",
+    "static/css/main.2f31a4b0.chunk.css",
+    "static/js/main.3cb731b0.chunk.js"
   ]
 }
