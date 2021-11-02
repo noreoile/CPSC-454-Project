@@ -7,7 +7,7 @@ class LeftSidebar extends React.Component {
 		return (
 			<div class="left-sidebar">
 				<div class="sidebar-items">
-					<a href="/" class="item">
+					<a href="/CPSC-454-Project" class="item">
 						<button class="ui basic button custom-button">
 							<i class="icon home"></i>
 							<span class="text">Home</span>
