@@ -13,12 +13,14 @@ class LeftSidebar extends React.Component {
 							<span class="text">Home</span>
 						</button>
 					</a>
+					{/*
 					<div class="item">
 						<button class="ui basic button custom-button">
 							<i class="icon history"></i>
 							<span class="text">History</span>
 						</button>
 					</div>
+					*/}
 				</div>
 			</div>
 		);

@@ -5,6 +5,7 @@ import VideoList from "./VideoList/VideoList";
 import VideoDetail from "./VideoDetail/VideoDetail";
 import Navbar from "./Navbar/Navbar";
 import LeftSidebar from "./LeftSidebar/LeftSidebar";
+import { firestore } from "../firebase/firebase.utils";
 
 class App extends React.Component {
 	state = { videos: [], selectedVideo: null };
