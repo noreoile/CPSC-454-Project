@@ -5,7 +5,7 @@ import VideoList from "./VideoList/VideoList";
 import VideoDetail from "./VideoDetail/VideoDetail";
 import Navbar from "./Navbar/Navbar";
 import LeftSidebar from "./LeftSidebar/LeftSidebar";
-import { firestore } from "../firebase/firebase.utils";
+import firebase, { firestore, auth } from "../firebase/firebase.utils";
 
 class App extends React.Component {
 	state = { videos: [], selectedVideo: null };
@@ -29,6 +29,44 @@ class App extends React.Component {
 
 	onVideoSelect = (video) => {
 		this.setState({ selectedVideo: video });
+		this.setDatabaseData(video);
+	};
+
+	setDatabaseData = async (video) => {
+		firebase.auth().onAuthStateChanged(async (user) => {
+			if (user) {
+				const dataRef = await firestore
+					.collection("history")
+					.doc(user.uid)
+					.get();
+				let data = dataRef.data();
+
+				if (data === undefined || data === null) {
+					data = {
+						videos: [],
+					};
+				}
+
+				const ob = {
+					title: video.snippet.title,
+					description: video.snippet.description,
+					thumbnail: video.snippet.thumbnails.medium.url,
+				};
+
+				data.videos?.push(ob);
+
+				await firestore
+					.collection("history")
+					.doc(user.uid)
+					.set(data)
+					.then(() => {
+						console.log("Document successfully written!");
+					})
+					.catch((error) => {
+						console.error("Error writing document: ", error);
+					});
+			}
+		});
 	};
 
 	render() {
@@ -41,7 +79,7 @@ class App extends React.Component {
 							<LeftSidebar />
 						</div>
 						<div className="nine wide column">
-							<VideoDetail video={this.state.selectedVideo} />
+							<VideoDetail video={this.state.selectedVideo}/>
 						</div>
 						<div className="four wide column">
 							<VideoList
