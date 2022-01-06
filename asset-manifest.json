@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.963f93c7.chunk.css",
-    "main.js": "/static/js/main.8c361db1.chunk.js",
-    "main.js.map": "/static/js/main.8c361db1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f62e7b68.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f62e7b68.js.map",
-    "static/css/2.bad41965.chunk.css": "/static/css/2.bad41965.chunk.css",
-    "static/js/2.8e28e98e.chunk.js": "/static/js/2.8e28e98e.chunk.js",
-    "static/js/2.8e28e98e.chunk.js.map": "/static/js/2.8e28e98e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.bad41965.chunk.css.map": "/static/css/2.bad41965.chunk.css.map",
-    "static/css/main.963f93c7.chunk.css.map": "/static/css/main.963f93c7.chunk.css.map",
-    "static/js/2.8e28e98e.chunk.js.LICENSE.txt": "/static/js/2.8e28e98e.chunk.js.LICENSE.txt",
-    "static/media/YoutubeIcon.9dce52e4.svg": "/static/media/YoutubeIcon.9dce52e4.svg",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff"
+    "main.css": "/CPSC-454-Project/static/css/main.963f93c7.chunk.css",
+    "main.js": "/CPSC-454-Project/static/js/main.8c361db1.chunk.js",
+    "main.js.map": "/CPSC-454-Project/static/js/main.8c361db1.chunk.js.map",
+    "runtime-main.js": "/CPSC-454-Project/static/js/runtime-main.e41024b6.js",
+    "runtime-main.js.map": "/CPSC-454-Project/static/js/runtime-main.e41024b6.js.map",
+    "static/css/2.95f73838.chunk.css": "/CPSC-454-Project/static/css/2.95f73838.chunk.css",
+    "static/js/2.e50d17c5.chunk.js": "/CPSC-454-Project/static/js/2.e50d17c5.chunk.js",
+    "static/js/2.e50d17c5.chunk.js.map": "/CPSC-454-Project/static/js/2.e50d17c5.chunk.js.map",
+    "index.html": "/CPSC-454-Project/index.html",
+    "static/css/2.95f73838.chunk.css.map": "/CPSC-454-Project/static/css/2.95f73838.chunk.css.map",
+    "static/css/main.963f93c7.chunk.css.map": "/CPSC-454-Project/static/css/main.963f93c7.chunk.css.map",
+    "static/js/2.e50d17c5.chunk.js.LICENSE.txt": "/CPSC-454-Project/static/js/2.e50d17c5.chunk.js.LICENSE.txt",
+    "static/media/YoutubeIcon.9dce52e4.svg": "/CPSC-454-Project/static/media/YoutubeIcon.9dce52e4.svg",
+    "static/media/semantic.min.css": "/CPSC-454-Project/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.f62e7b68.js",
-    "static/css/2.bad41965.chunk.css",
-    "static/js/2.8e28e98e.chunk.js",
+    "static/js/runtime-main.e41024b6.js",
+    "static/css/2.95f73838.chunk.css",
+    "static/js/2.e50d17c5.chunk.js",
     "static/css/main.963f93c7.chunk.css",
     "static/js/main.8c361db1.chunk.js"
   ]
